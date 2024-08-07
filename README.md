@@ -13,3 +13,6 @@ We have built an end-to-end system of Polaris and tested it extensively in real-
 
 # Lisense
 Polaris is licensed under the MIT license included in the [LICENSE](./LICENSE) file.
+
+# Setup
+To use Polaris, the following hardwares and development tools are required:

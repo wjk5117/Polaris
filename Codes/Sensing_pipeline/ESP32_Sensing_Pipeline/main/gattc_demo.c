@@ -953,8 +953,6 @@ void freeDynamicArray(struct SensorArray *arr) {
     arr->capacity = 0;
 }
 
-
-
 double gaussian(double x, double pos, double wid) 
 {
     return exp(-pow((x - pos) / (0.60056120439323 * wid), 2));

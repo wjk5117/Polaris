@@ -294,9 +294,6 @@ double DDTW_matching_res(double signal_1[][N], int ang_gran, int dis_gran, int t
 
 
 
-
-
-
 int main()
 { 
 

@@ -1,6 +1,4 @@
-# The source code of the artifact submission for Polaris in MobiCom'24
-
-This repository contains the artifacts and guidelines for ACM Badging in the MobiCom 2024 proceedings.
+# The source code for Polaris in MobiCom'24
 
 # Overview
 We present Polaris, the first vision-free fiducial marking system, based on a novel, full-stack magnetic sensing design. 

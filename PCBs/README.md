@@ -4,7 +4,7 @@
 This directory contains the comprehensive PCB design for Polaris' sensor array, including the sensor bar for fiducial detection and a flashing board designed to program the MCU (MDBT42Q-512KV2). 
 
 "SensorArray_RobotCar" refers to the PCB design of the sensor array for the robot car.
-"SensorArray_MiniCar" referes to the PCB design of the sensor array for the mini car.
+`SensorArray_MiniCar` referes to the PCB design of the sensor array for the mini car.
 "Flashing_Module" refers to the flashing board for programming the MCU to obtain data readings of each magnetometers.
 
 ![plot](../Imgs/sensing_array.png)

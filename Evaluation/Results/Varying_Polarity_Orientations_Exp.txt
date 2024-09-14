@@ -1,0 +1,50 @@
+Estimated heading angle: -1.6269647310850024 deg
+The localization error is: 1.7794351405162672 mm
+The decoded bits are: ['111', '110', '010', '011', '001', '111']
+The corresponding tag id is: 255183
+
+Estimated heading angle: -2.8751372941460684 deg
+The localization error is: 2.3375986854782536 mm
+The decoded bits are: ['111', '110', '010', '011', '001', '111']
+The corresponding tag id is: 255183
+
+Estimated heading angle: -2.122041635372731 deg
+The localization error is: 1.9229726933966702 mm
+The decoded bits are: ['111', '110', '010', '011', '001', '111']
+The corresponding tag id is: 255183
+
+Estimated heading angle: -1.6269647310847783 deg
+The localization error is: 1.6580565098511066 mm
+The decoded bits are: ['111', '110', '010', '011', '001', '111']
+The corresponding tag id is: 255183
+
+Estimated heading angle: -1.5477793142024159 deg
+The localization error is: 3.4382125013684233 mm
+The decoded bits are: ['111', '111', '010', '010', '001', '111']
+The corresponding tag id is: 259215
+
+Estimated heading angle: -0.7252242990596861 deg
+The localization error is: 2.8464301371280927 mm
+The decoded bits are: ['111', '110', '010', '011', '000', '111']
+The corresponding tag id is: 255175
+
+Estimated heading angle: 0.31335642021527244 deg
+The localization error is: 3.179943885302489 mm
+The decoded bits are: ['111', '110', '010', '011', '001', '111']
+The corresponding tag id is: 255183
+
+Estimated heading angle: -2.3933332584988025 deg
+The localization error is: 2.7438589044006703 mm
+The decoded bits are: ['111', '110', '010', '011', '001', '111']
+The corresponding tag id is: 255183
+
+Estimated heading angle: 1.6260307818104676 deg
+The localization error is: 2.67469402779104 mm
+The decoded bits are: ['111', '110', '010', '011', '001', '111']
+The corresponding tag id is: 255183
+
+Estimated heading angle: -2.9024375382616805 deg
+The localization error is: 4.528179837249758 mm
+The decoded bits are: ['111', '110', '010', '011', '001', '111']
+The corresponding tag id is: 255183
+

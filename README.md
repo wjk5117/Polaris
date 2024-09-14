@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # The source code of Polaris in MobiCom'24
+=======
+# The source code for Polaris in MobiCom'24
+>>>>>>> 4ce528ca17485b3e0c307a8b284d9b1d621e0c67
 
 # Overview
 We present Polaris, the first vision-free fiducial marking system, based on a novel, full-stack magnetic sensing design. 

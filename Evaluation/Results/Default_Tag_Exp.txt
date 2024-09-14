@@ -1,0 +1,50 @@
+Estimated heading angle: -1.2241516388127511 deg
+The localization error is: 1.4210664527053516 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -0.4881784068958059 deg
+The localization error is: 1.4841497917251296 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: 0.08354796137388139 deg
+The localization error is: 1.7686559865878002 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -0.5957906043670287 deg
+The localization error is: 1.392752068891674 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: 2.3083503703270556 deg
+The localization error is: 1.1160911863246215 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -0.8303154862574056 deg
+The localization error is: 2.9771875675441755 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: 2.849474560677127 deg
+The localization error is: 1.2904841346314444 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -0.8303154862574056 deg
+The localization error is: 2.673553323554949 mm
+The decoded bits are: ['111', '111', '101', '111', '111', '111']
+The corresponding tag id is: 261119
+
+Estimated heading angle: 0.10892720624799851 deg
+The localization error is: 1.349174237844745 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: 2.0835882542441997 deg
+The localization error is: 1.324536151350833 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+

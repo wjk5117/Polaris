@@ -1,0 +1,50 @@
+Estimated heading angle: -1.8472589521213925 deg
+The localization error is: 3.4567815280678986 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -1.3713473813073522 deg
+The localization error is: 1.9440969828451837 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -2.914958011317129 deg
+The localization error is: 2.8670101672440444 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -1.1975497045673114 deg
+The localization error is: 2.866210219002415 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: 0.10892720624799851 deg
+The localization error is: 0.9865378802983876 mm
+The decoded bits are: ['111', '111', '101', '111', '111', '111']
+The corresponding tag id is: 261119
+
+Estimated heading angle: -0.45954874976517424 deg
+The localization error is: 2.836621957801193 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -3.477496864345892 deg
+The localization error is: 4.113907852768195 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: -0.8303154862574056 deg
+The localization error is: 1.6203535446422126 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: 0.12704143151888872 deg
+The localization error is: 1.2114244010148383 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
+Estimated heading angle: 0.45113854678600357 deg
+The localization error is: 1.6324592466348693 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+

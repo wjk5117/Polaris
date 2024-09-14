@@ -1,14 +1,13 @@
+# We will use this code to read the raw sensor data from the BLE device
+# Before running this code, please change the address to the address of your device get from find_device.py
+# For example, the address of a "Bluefruit52" MCU is "D3:A8:5B:55:AF:C5"
+
 import asyncio
 import struct
-import sys
-import time
 import datetime
 import atexit
-import time
 import numpy as np
 from bleak import BleakClient
-import matplotlib.pyplot as plt
-from bleak import exc
 import pandas as pd
 import atexit
 
@@ -22,7 +21,9 @@ UART_TX_UUID = "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
 num = 3
 sensors = np.zeros((num, 3))
 result = []
-name = ['Time Stamp', 'Sensor '+str(i+1) for i in range(num)]
+name = ['Time Stamp']
+for i in range(num):
+    name.append("Sensor " + str(i+1))
 
 @atexit.register
 def clean():
@@ -45,15 +46,8 @@ def notification_handler(sender, data):
               str(sensors[i, 0]) + ", " + str(sensors[i, 1]) + ", " + str(sensors[i, 2]))
         current.append(
             "("+str(sensors[i, 0]) + ", " + str(sensors[i, 1]) + ", " + str(sensors[i, 2])+")")
-    #battery_voltage = struct.unpack('f', data[12 * num: 12 * num + 4])[0]
-    #print("Battery voltage: " + str(battery_voltage))
     print("############")
     result.append(current)
-
-    # # save data to csv
-    # test = pd.DataFrame(columns=name, data=result)
-    # test.to_csv("file_name.csv")
-
 
 
 async def run(address, loop):
@@ -68,7 +62,7 @@ async def run(address, loop):
             await asyncio.sleep(0.01)
 
 # Change the address to the address of your device get from find_device.py
-address = ("CC:42:8E:0E:D5:D5")
+address = ("D3:A8:5B:55:AF:C5")
 loop = asyncio.get_event_loop()
 loop.run_until_complete(run(address, loop))
 

@@ -4,6 +4,8 @@ This directory contains all code implementation and hardware designs for Polaris
 # Overview
 We present Polaris, the first vision-free fiducial marking system, based on a novel, full-stack magnetic sensing design. 
 Polaris can achieve reliable and accurate pose estimation and contextual perception, even in NLOS scenarios. 
+Watch our demo video here: [Polaris Demo](https://www.youtube.com/watch?v=gdAEeNdMJk0)
+
 
 Its core design includes: (1) a novel digital modulation scheme, Magnetic Orientation-shift Keying (MOSK) that can encode key information like waypoints and coordinates with passive magnets; (2) a robust and lightweight magnetic sensing framework to decode and localize the magnetic tags. 
 Our design also equips Polaris with three key features: sufficient encoding capacity, robust detection accuracy, and low energy consumption. 

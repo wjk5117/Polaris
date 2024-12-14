@@ -68,7 +68,7 @@ class Simulator:
                 self.sensors[name].move(shift_step * rotation_vector)
             sensor_shift += shift_step
             # magpy.show(self.magnets[0], self.sensors['Sensor 0'])
-        #   magpy.show(self.magnets[0], self.sensors['Sensor 0'], animation=True)
+        # magpy.show(self.magnets[0], self.sensors['Sensor 0'], animation=True)
 
         return res, self.sensors
 
@@ -76,8 +76,8 @@ class Simulator:
 def draw2Dfigure(x_data, y_data, z_data, all_data, angle, offset, fs=25):  # copied from simulation.py
     plt.figure(figsize=[12, 8])
     x = [i for i in range(1, len(x_data) + 1)]
-    plt.plot(x, x_data, color='red', label='x-axis data', linewidth=3)
-    plt.plot(x, y_data, color='blue', label='y-axis data', linewidth=3)
+    plt.plot(x, x_data, color='blue', label='x-axis data', linewidth=3)
+    plt.plot(x, y_data, color='red', label='y-axis data', linewidth=3)
     plt.plot(x, z_data, color='green', label='z-axis data', linewidth=3)
     # plt.plot(x, all_data, color='black', label='vector sum', linewidth=3.5)
     plt.tick_params(labelsize=20)
@@ -102,9 +102,10 @@ def simulation_process(rotation_angle, lateral_offset = 0, deg = 90):
     simulator = Simulator()
 
     # Magnet configuration
-    src = magpy.magnet.Cylinder(magnetization=(0, 2000000, 0), dimension=(2, 1), position=(0, 0, 0))
+    src = magpy.magnet.Cylinder(magnetization=(0, 2000000, 0), dimension=(4, 1), position=(0, 0, 0))
+    # the or
 
-    sens = magpy.Sensor(pixel=[(0, 0, 0)], position=(lateral_offset, 0, 15), orientation=R.from_euler('x', 180, degrees=True))
+    sens = magpy.Sensor(pixel=[(0, 0, 0)], position=(lateral_offset, 0, 30), orientation=R.from_euler('z', 90, degrees=True))
 
     rotation_object = R.from_euler('z', rotation_angle, degrees=True)
     src.rotate(rotation_object, anchor=(0, 0, 0))
@@ -178,7 +179,7 @@ def simulation_process(rotation_angle, lateral_offset = 0, deg = 90):
             # total_B.append(math.sqrt(B_x[i]**2 + B_y[i]**2 + B_z[i]**2))
             total_B.append([B_x[i], B_y[i], B_z[i]])
 
-        # draw2Dfigure(B_x, B_y, B_z, total_B, angle=rotation_angle, offset=lateral_offset)     
+        draw2Dfigure(B_x, B_y, B_z, total_B, angle=rotation_angle, offset=lateral_offset)     
      
     return B_x, B_y, B_z, total_B
 
@@ -208,13 +209,13 @@ if __name__ == "__main__":
     angular_granularity = 20
     lateral_granularity = 5
     for i in range(0, 360, angular_granularity):
-        for j in range(-lateral_granularity//2, lateral_granularity//2+1):
+        for j in range(3, 5):
             Bx, By, Bz, Tb = simulation_process(rotation_angle=-i*angular_granularity, lateral_offset=j*lateral_granularity)
             gt_datas.append(Tb)
 
     # Save the simulated data to a txt file
-    with open("template_" + str(angular_granularity) + "_" + "lateral_granularity" + ".txt", "w") as file:
-        for layer in gt_datas:
-            for row in layer:
-                file.write(" ".join(map(str, row)) + "\n")
-            file.write("\n")
+    # with open("template_" + str(angular_granularity) + "_" + "lateral_granularity" + ".txt", "w") as file:
+    #     for layer in gt_datas:
+    #         for row in layer:
+    #             file.write(" ".join(map(str, row)) + "\n")
+    #         file.write("\n")

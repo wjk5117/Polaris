@@ -8,7 +8,7 @@ import serial
 import struct
 
 #  COM port, please change it to your own COM port
-COM = 'COM6'
+COM = 'COM3'
 # number of sensors, please change it to the number of sensors you are using
 num = 9
 data = bytearray(4 * (3 * num))

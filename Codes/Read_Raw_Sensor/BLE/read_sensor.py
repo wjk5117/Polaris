@@ -18,7 +18,7 @@ UART_RX_UUID = "6e400002-b5a3-f393-e0a9-e50e24dcca9e"
 UART_TX_UUID = "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
 
 #
-num = 3
+num = 9
 sensors = np.zeros((num, 3))
 result = []
 name = ['Time Stamp']
@@ -62,7 +62,7 @@ async def run(address, loop):
             await asyncio.sleep(0.01)
 
 # Change the address to the address of your device get from find_device.py
-address = ("D3:A8:5B:55:AF:C5")
+address = ("CD:60:4F:3D:9F:51")
 loop = asyncio.get_event_loop()
 loop.run_until_complete(run(address, loop))
 

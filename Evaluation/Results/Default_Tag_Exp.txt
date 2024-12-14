@@ -48,3 +48,8 @@ The localization error is: 1.324536151350833 mm
 The decoded bits are: ['111', '111', '111', '111', '111', '111']
 The corresponding tag id is: 262143
 
+Estimated heading angle: -1.2241516388127511 deg
+The localization error is: 1.4210664527053516 mm
+The decoded bits are: ['111', '111', '111', '111', '111', '111']
+The corresponding tag id is: 262143
+
